@@ -1,5 +1,7 @@
 # Cocos2d-x 2.2.6 support Android Studio IDE and cocos command
 
+Tested with 3.8.1 console command
+
 ## setup
 
 1. copy `hello` folder to `cocos2d-x-2.2.6/project/`
@@ -12,3 +14,5 @@ cocos command version < 3.17
 ```
 cocos run -p android --android-studio
 ```
+
+

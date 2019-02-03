@@ -16,3 +16,24 @@ cocos run -p android --android-studio
 ```
 
 
+
+# Debug C++
+
+1.  NDK >= android-ndk-r13b
+
+2.  Set Project's NDK![](misc/setting1.png)
+
+    ![](misc/setting2.png)
+
+3.  Android.mk
+
+    ```makefile
+    # !!!! dangerous, ONLY for debuging c++ with Android Studio
+    ifeq ($(NDK_DEBUG),1)
+      LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
+    endif
+    # !!!! dangerous!!!!
+    ```
+
+    ​
+

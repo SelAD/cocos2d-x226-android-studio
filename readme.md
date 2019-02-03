@@ -1,6 +1,6 @@
 # Cocos2d-x 2.2.6 support Android Studio IDE and cocos command
 
-Tested with 3.8.1 console command
+Tested with 3.8.1 console command, Android Studio 3.2.1.
 
 ## setup
 

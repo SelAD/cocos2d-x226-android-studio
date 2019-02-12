@@ -19,7 +19,7 @@ cocos run -p android --android-studio
 
 # Debug C++
 
-1.  NDK >= android-ndk-r13b
+1.  NDK == android-ndk-r13b
 
 2.  Set Project's NDK![](misc/setting1.png)
 
